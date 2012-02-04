@@ -1,4 +1,3 @@
-# -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
 require "susuwatari/version"
 
@@ -20,5 +19,6 @@ Gem::Specification.new do |s|
 
   # specify any dependencies here; for example:
   # s.add_development_dependency "rspec"
+  s.add_runtime_dependency "json"
   s.add_runtime_dependency "rest-client"
 end
