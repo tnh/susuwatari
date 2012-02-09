@@ -20,7 +20,7 @@ module Susuwatari
     def run
       return status if @result
       @result = Result.new(make_request)
-      puts "Running...test_id:#{@result.test_id}"
+      @result.test_id
     end
 
     def result
