@@ -31,7 +31,7 @@ module Susuwatari
       when /1../
         @current_status = :running
       when "200"
-        @current_status = :complete
+        @current_status = :completed
         fetch_result
       when /4../
         @current_status = :error
