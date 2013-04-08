@@ -6,7 +6,7 @@ module Susuwatari
 
     def_delegator :@result, :status
 
-    TEST_URL = 'http://www.webpagetest.org/runtest.php'
+    TEST_URL = 'http://private-wpt.rea-group.com/runtest.php'
 
     def initialize( params = {} )
       params.fetch(:k)

@@ -7,8 +7,8 @@ module Susuwatari
   class Result
     extend Forwardable
 
-    STATUS_URL        = 'http://www.webpagetest.org/testStatus.php'
-    RESULT_URL_PREFIX = 'http://www.webpagetest.org/xmlResult/'
+    STATUS_URL        = 'http://private-wpt.rea-group.org/testStatus.php'
+    RESULT_URL_PREFIX = 'http://private-wpt.rea-group.org/xmlResult/'
 
     attr_reader :test_id, :current_status, :test_result, :request_raw
 
